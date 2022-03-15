@@ -6,7 +6,9 @@
 }
 
 .footer{
+    background-color: aliceblue;
     bottom: 0;
+    width: 100%;
     position: absolute;
     margin: 0 auto;
     text-align: center;

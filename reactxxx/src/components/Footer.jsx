@@ -2,7 +2,10 @@ import React from "react";
 
 function Footer() {
     return(
-        <p className="footer">Made with♥ by TheWisePigeon</p>
+        <div className="footer">
+            <p >Made with♥ by TheWisePigeon</p>
+        </div>
+        
     )
 }
 
