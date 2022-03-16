@@ -3,8 +3,8 @@ import React from "react"
 function Artwork(props) {
 
     return (
-        <div>
-            <div className=" w-40 h-40 rounded-full">
+        <div className=" m-5">
+            <div className=" w-40 h-40 rounded-full ">
                 <img  src={props.src} alt={props.alt} />
             </div>
             <h3>{props.title}</h3>
