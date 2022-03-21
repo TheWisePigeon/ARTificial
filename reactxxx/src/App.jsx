@@ -24,7 +24,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className=" w-1/6 overflow-hidden text-center font-semibold" >
+      <div className="flex  overflow-hidden text-center font-semibold" >
         {
           content.map(
             artwork => createArtwork(artwork)
