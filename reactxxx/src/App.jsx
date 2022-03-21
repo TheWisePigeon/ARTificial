@@ -24,7 +24,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="flex flex-wrap overflow-hidden" >
+      <div className="flex flex-wrap overflow-hidden justify-between" >
         {
           content.map(
             artwork => createArtwork(artwork)
